@@ -1,6 +1,6 @@
 .text
 main:
-addiu $so,$0,5
+addiu $s0,$0,5
 addiu $s0,$0,4
 mult $s0,$s1
 mfhi $s0        # msb 32
